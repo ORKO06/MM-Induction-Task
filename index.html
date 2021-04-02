@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="slider.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <section>
+        <div class="navbar">
+          <nav>
+            <li>
+              <a href="#">
+                Home
+                <span class="link-space">
+                  <span class="fare">Home</span>
+                  <span class="back">Home</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Editorial
+                <span class="link-space">
+                  <span class="fare">Editorial </span>
+                  <span class="back">Editorial</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Stories
+                <span class="link-space">
+                  <span class="fare"> Stories</span>
+                  <span class="back">Stories</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Login
+                <span class="link-space">
+                  <span class="fare">Login </span>
+                  <span class="back">Login</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Signup
+                <span class="link-space">
+                  <span class="fare">Signup </span>
+                  <span class="back">Signup</span>
+                </span>
+              </a>
+            </li>
+          </nav>
+          <span>
+            <input class="search" type="text" placeholder="Search.." />
+          </span>
+        </div>
+      </section>
+    </header>
+    <main>
+      <!--IMAGE SLIDER-->
+      <section class="image-slider">
+        <div class="slider">
+          <div class="slides">
+            <!--Radio Button Start-->
+            <input type="radio" name="radio-btn" id="radio1" />
+            <input type="radio" name="radio-btn" id="radio2" />
+            <input type="radio" name="radio-btn" id="radio3" />
+            <input type="radio" name="radio-btn" id="radio4" />
+            <!--Radio Button ends-->
+
+            <!--Slides Image start-->
+            <div class="slide first">
+              <img src="5.jfif" width="800px" height="500px" alt="" />
+              hey
+            </div>
+            <div class="slide">
+              <img src="2.jfif" width="800px" height="500px" alt="" />
+            </div>
+            <div class="slide=">
+              <img src="3.jfif" width="800px" height="500px" alt="" />
+            </div>
+            <div class="slide=">
+              <img src="4.jfif" width="800px" height="500px" alt="" />
+            </div>
+            <!--Slides Image end-->
+            <!--automatic navigation start-->
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+            </div>
+            <!--automatic navigation end-->
+          </div>
+          <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label
+            ><label for="radio2" class="manual-btn"></label
+            ><label for="radio3" class="manual-btn"></label
+            ><label for="radio4" class="manual-btn"></label>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card-1">
+            <div class="card-1-type">Article</div>
+            <div class="card-1-heading">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
+              dignissimos.
+            </div>
+            <div class="card-1-user">
+              <i class="fas fa-user"></i>
+              <span>Hemant Bajaj</span>
+              <i class="far fa-clock"></i>
+              <span> APRIL 1,2021</span>
+            </div>
+          </div>
+          <div class="card-2">
+            <div class="card-2-type">Article</div>
+            <div class="card-2-heading">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
+              dignissimos.
+            </div>
+            <div class="card-2-user">
+              <i class="fas fa-user"></i>
+              <span>Hemant Bajaj</span>
+              <i class="far fa-clock"></i>
+              <span> APRIL 2,2021</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Image slider ends-->
+      <!--Content Cards start-->
+      <section></section>
+      <!--Content Cards End-->
+    </main>
+    <script type="text/javascript">
+      var counter = 1;
+      setInterval(function () {
+        document.getElementById("radio" + counter).checked = true;
+        counter++;
+        if (counter > 4) {
+          counter = 1;
+        }
+      }, 10000);
+    </script>
+    <script
+      src="https://kit.fontawesome.com/56c8f78020.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
