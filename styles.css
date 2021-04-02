@@ -3,7 +3,11 @@
   margin: 0;
   overflow: visible;
   font-family: sans-serif;
-  background-color: rgb(54, 51, 51);
+}
+
+html {
+  font-size: 16px;
+  height: 100%;
 }
 
 .navbar {
@@ -75,6 +79,7 @@ a:not(.active):hover .link-space {
   color: rgb(0, 0, 0);
   pointer-events: none;
   box-sizing: border-box;
+  backface-visibility: hidden;
 }
 
 nav li a:hover .fare,

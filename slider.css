@@ -1,7 +1,9 @@
 .image-slider {
   width: 1200px;
+  height: 500px;
   margin: auto;
   margin-top: 50px;
+  display: block;
 }
 
 .slider {
@@ -115,7 +117,7 @@
   background: #40d3dc;
 }
 
-.cards {
+.slider-cards {
   width: 400px;
   float: left;
 }
