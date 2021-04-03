@@ -28,7 +28,7 @@ li {
   display: inline-block;
 }
 
-a {
+nav li a {
   color: #fff;
   display: block;
   position: relative;

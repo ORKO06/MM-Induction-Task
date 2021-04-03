@@ -1,0 +1,160 @@
+.home-articles {
+  width: 80%;
+  margin: auto;
+}
+html {
+  background-color: rgb(51, 47, 47);
+}
+* {
+  margin: 0%;
+  padding: 0;
+}
+.articles-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: xx-large;
+  font-weight: bolder;
+  letter-spacing: 20px;
+}
+
+.text-gradient {
+  /* Fallback: Set a background color. */
+  background-color: red;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.articles {
+  width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.articles-left {
+  width: 800px;
+  float: left;
+  height: 2000px;
+  border: 2px solid red;
+}
+
+.articles-right {
+  width: 400px;
+  height: 200px;
+  border: 2px solid blue;
+  float: left;
+}
+
+.article-navbar {
+  width: 604px;
+  margin: auto;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.article-navabr-icon {
+  width: 115px;
+  height: 40px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+.article-1 {
+  width: 800px;
+  height: 200px;
+  margin: 20px 0px;
+}
+
+.article-1-left {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background: url(4.jfif);
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.article-1-right {
+  width: 590px;
+  height: 200px;
+  float: left;
+  background-color: brown;
+}
+
+.article-1-type {
+  padding-top: 10px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  background-color: chartreuse;
+  font-size: large;
+  font-weight: bolder;
+
+  position: relative;
+  top: 150px;
+  left: 30px;
+}
+
+.article-1-heading {
+  width: 500px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.article-1-author {
+  width: 500px;
+  text-align: left;
+  margin: auto;
+
+  margin-top: 10px;
+  color: aqua;
+}
+
+.user {
+  margin-right: 10px;
+}
+
+.article-1-description {
+  width: 500px;
+  margin: auto;
+  text-align: left;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.article-1-metas {
+  width: 500px;
+  margin: auto;
+  text-align: left;
+  color: aqua;
+  margin-top: 15px;
+  word-spacing: 10px;
+}
+
+.article-1-button {
+  position: relative;
+  left: 400px;
+  top: -20px;
+  background-color: transparent;
+  color: white;
+  box-shadow: none;
+  border: none;
+  text-decoration: none;
+}
