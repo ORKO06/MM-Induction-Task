@@ -45,15 +45,13 @@ html {
 .articles-left {
   width: 800px;
   float: left;
-  height: 2000px;
-  border: 2px solid red;
 }
 
 .articles-right {
-  width: 400px;
-  height: 200px;
-  border: 2px solid blue;
+  width: 350px;
+  height: 400px;
   float: left;
+  margin-left: 50px;
 }
 
 .article-navbar {
@@ -157,4 +155,67 @@ html {
   box-shadow: none;
   border: none;
   text-decoration: none;
+}
+
+.articles-social {
+  width: 300px;
+  height: 200px;
+  background-color: beige;
+  margin: auto;
+}
+
+.social-first {
+  width: 300px;
+  height: 100px;
+  background-color: blanchedalmond;
+}
+
+.social-fb,
+.social-twitter {
+  width: 130px;
+  height: 100px;
+  float: left;
+  margin: 0 10px;
+}
+
+.logo {
+  width: 50px;
+  height: 100px;
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 5px;
+  color: rgb(57, 143, 129);
+}
+
+.fa-youtube-square {
+  color: red;
+}
+
+.fa-instagram-square {
+  color: #bc2a8d;
+}
+
+.followers {
+  width: 40px;
+  height: 100px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.followers h4 {
+  font-weight: 1100;
+  font-size: x-large;
+}
+
+.logo,
+.followers {
+  float: left;
+}
+
+.articles-ad {
+  width: 350px;
+  margin-top: 50px;
+  height: 700px;
+  background-color: powderblue;
+  border-radius: 100px;
 }
