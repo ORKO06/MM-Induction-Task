@@ -25,7 +25,7 @@
 .content-cards {
   width: 80%;
   text-align: center;
-  margin-left: 10%;
+  margin: auto;
 }
 .container-1,
 .container-2,
@@ -35,7 +35,7 @@
 .container-6 {
   width: 400px;
   height: 350px;
-  margin: 50px 0;
+  margin: 50px 20px;
   display: inline-block;
   overflow: hidden;
   border-radius: 20px;
@@ -176,7 +176,7 @@
   text-align: left;
 }
 
-@media screen and(min-width:400px) and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .content-heading {
     margin: auto;
   }
@@ -187,7 +187,7 @@
 
   .content-cards {
     width: 100%;
-    margin: none;
+    margin-left: none;
   }
 
   .container-1,
@@ -196,7 +196,7 @@
   .container-4,
   .container-5,
   .container-6 {
-    margin: auto;
+    margin: 50px 0;
   }
 
   .content-heading {
