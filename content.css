@@ -12,6 +12,12 @@
   font-size: larger;
 }
 
+.content-heading h1 {
+  font-size: xxx-large;
+  font-weight: bolder;
+  letter-spacing: 10px;
+}
+
 .content- {
   display: flex;
 }
