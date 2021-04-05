@@ -175,3 +175,13 @@
   width: 340px;
   text-align: left;
 }
+
+@media screen and (max-width: 800px) {
+  .content-heading {
+    margin: auto;
+  }
+
+  .content-heading h1 {
+    font-size: xx-large;
+  }
+}

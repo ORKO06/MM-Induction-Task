@@ -1,5 +1,4 @@
 .home-articles {
-  width: 80%;
   margin: auto;
 }
 html {
@@ -10,6 +9,8 @@ html {
   padding: 0;
 }
 .articles-heading {
+  width: 80%;
+  margin: auto;
   text-align: center;
   text-transform: uppercase;
   font-size: xx-large;
@@ -52,7 +53,7 @@ html {
   width: 350px;
   height: 400px;
   float: left;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .article-navbar {
@@ -60,6 +61,7 @@ html {
   margin: auto;
   height: 50px;
   margin-top: 20px;
+  overflow: hidden;
 }
 
 .article-navabr-icon {
@@ -68,6 +70,7 @@ html {
   padding-top: 10px;
   text-align: center;
   background-color: aquamarine;
+  overflow: hidden;
 }
 
 .article-1 {
@@ -219,4 +222,95 @@ html {
   height: 700px;
   background: linear-gradient(blue, lightblue);
   border-radius: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+  .articles {
+    width: 100%;
+    height: 1450px;
+    margin: auto;
+  }
+  .home-articles {
+    width: 100%;
+    margin: none;
+  }
+  .articles-right,
+  .articles-left {
+    float: none;
+  }
+  .articles-right {
+    width: 800px;
+    margin-top: 100px;
+  }
+  .articles-left,
+  .articles {
+    margin: auto;
+  }
+  .articles-ad,
+  .articles-social {
+    float: left;
+    margin: 0;
+  }
+
+  .articles-social {
+    margin-top: 100px;
+  }
+
+  .articles-ad {
+    height: 400px;
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .home-articles {
+    height: 1750px;
+  }
+
+  .articles-right {
+    width: 80%;
+    margin: auto;
+  }
+
+  .articles-social {
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .articles-ad,
+  .articles-social {
+    float: none;
+  }
+
+  .articles-ad {
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .articles-left {
+    width: 100%;
+  }
+  .article-navbar {
+    width: 80%;
+    height: 40px;
+    margin-bottom: 40px;
+  }
+  .article-1 {
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .article-1-right {
+    width: 200px;
+    overflow: hidden;
+  }
+
+  .article-1-heading,
+  .article-1-description,
+  .article-1-metas,
+  .article-1-author {
+    width: 80%;
+    font-size: small;
+  }
+  .articles-right {
+  }
 }
