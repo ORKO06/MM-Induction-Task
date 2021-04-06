@@ -239,3 +239,9 @@
     margin-top: 360px;
   }
 }
+
+.card-1-heading a,
+.card-2-heading a {
+  text-decoration: none;
+  color: white;
+}

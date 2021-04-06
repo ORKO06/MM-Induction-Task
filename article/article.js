@@ -3,7 +3,6 @@ let um = 1;
 document.querySelector("#btn").addEventListener("click", function () {
   document.querySelector(`.comment-${um}`).classList.remove("hidden");
 
-  document.querySelector(`.comment-${um}`).style.margin = "10px 0";
   document.querySelector(
     `.user-comment${um}`
   ).textContent = document.querySelector("#comment").value;
