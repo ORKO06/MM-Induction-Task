@@ -38,7 +38,6 @@ textarea {
 
 .Comment-display {
   width: 100%;
-  height: 650px;
 }
 
 .comment-left,
@@ -123,11 +122,66 @@ textarea {
   }
 }
 
+@media screen and (max-width: 600px) and (min-width: 400px) {
+  .comments {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 350px) {
+  .comments {
+    width: 100%;
+    overflow: hidden;
+  }
+  #name,
+  #email,
+  #comment {
+    max-width: 40%;
+    height: 30px;
+    margin: 10px 20%;
+  }
+}
+
+@media screen and (max-width: 350px) and (min-width: 200px) {
+  .comments {
+    width: 100%;
+    overflow: hidden;
+  }
+  #name,
+  #email,
+  #comment {
+    max-width: 40%;
+    height: 30px;
+    margin: 10px 10%;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .comments {
+    width: 120px;
+    overflow: hidden;
+  }
+  #name,
+  #email,
+  #comment {
+    width: 100px;
+    height: 30px;
+    margin: 10px 10px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .user-image {
     height: 80px;
     width: 80px;
     margin-top: 35px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .user-image {
+    height: 60px;
+    width: 60px;
+    margin-top: 45px;
   }
 }
 

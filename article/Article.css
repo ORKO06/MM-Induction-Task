@@ -127,3 +127,21 @@ body {
     margin: auto;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .writer-name {
+    font-size: 10px;
+    padding-top: 20px;
+  }
+  .writer-metas {
+    font-size: 20px;
+    padding-top: 15px;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Article-content h1 {
+    font-size: large;
+  }
+}
