@@ -74,6 +74,7 @@ body {
   width: 80%;
   margin: auto;
   margin-top: 50px;
+  margin-left: 10%;
   background-color: white;
   overflow: hidden;
 }
@@ -99,16 +100,13 @@ body {
 
 .Article-content-comment-box {
   width: 80%;
-  height: 200px;
   margin: auto;
   margin-top: 20px;
   border: 1px solid grey;
 }
 .Article-content-comment {
   width: 80%;
-  height: 162px;
-  margin: auto;
-  margin-top: 19px;
+  margin: 19px auto;
   border-left: 1px solid black;
   overflow: hidden;
   padding: 0 10px;
@@ -117,4 +115,15 @@ body {
 
 .hidden {
   display: none;
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .Article-content,
+  .Article-writer,
+  .Article-Image {
+    width: 400px;
+  }
+  .Article-content {
+    margin: auto;
+  }
 }
