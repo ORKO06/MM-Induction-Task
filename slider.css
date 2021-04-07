@@ -142,11 +142,12 @@
   background: transparent;
   width: 100px;
   height: 20px;
-  background-color: tomato;
+  background-color: #810000;
   position: relative;
   top: 120px;
   left: 30px;
   text-align: center;
+  color: #eeebdd;
 }
 
 .card-1-heading,
@@ -154,7 +155,7 @@
   background: transparent;
   position: relative;
   top: 140px;
-  color: white;
+  color: #eeebdd;
   font-weight: bolder;
   width: 340px;
   left: 30px;
@@ -172,20 +173,20 @@
 .card-1-user .fa-user,
 .card-2-user .fa-user {
   background: transparent;
-  color: aqua;
+  color: #eeebdd;
 }
 
 .card-1-user span,
 .card-2-user span {
   background: transparent;
-  color: aqua;
+  color: #eeebdd;
 }
 
 .card-1-user .fa-clock,
 .card-2-user .fa-clock {
   margin-left: 20px;
   background: transparent;
-  color: aqua;
+  color: #eeebdd;
 }
 
 @media screen and (max-width: 1200px) {
@@ -243,5 +244,5 @@
 .card-1-heading a,
 .card-2-heading a {
   text-decoration: none;
-  color: white;
+  color: #eeebdd;
 }

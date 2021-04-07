@@ -53,7 +53,7 @@
 
 .blog-category {
   width: 100px;
-  background-color: blue;
+  background-color: #ce1212;
   color: white;
   box-sizing: border-box;
   padding: 10px;
@@ -68,6 +68,7 @@
   left: 30px;
   top: 30px;
   text-align: left;
+  color: #eeebdd;
 }
 
 .blog-metas {
@@ -76,6 +77,7 @@
   left: 30px;
   top: 50px;
   text-align: left;
+  color: #eeebdd;
 }
 /*
 .card:hover {
@@ -88,7 +90,7 @@
 .card__hidden {
   width: 400px;
   height: 200px;
-  background-color: blue;
+  background-color: #2b2e4a;
 }
 
 .blog-excerpt {
@@ -108,11 +110,11 @@
   left: 0px;
   width: 340px;
   height: 50px;
-  background-color: blueviolet;
+  background-color: #53354a;
 }
 
 .btn a {
-  color: white;
+  color: #eeebdd;
   font-weight: bold;
   font-size: large;
   text-decoration: none;
@@ -160,14 +162,13 @@
 .container-5:hover > .card > .card__header > .blog-details > .blog-category,
 .container-6:hover > .card > .card__header > .blog-details > .blog-category {
   transform: translateY(-20px);
-  background-color: red;
   transition: all 1s;
 }
 .blog-author {
   position: relative;
   left: 30px;
   top: -80px;
-  color: aqua;
+  color: #eeebdd;
   width: 340px;
   text-align: left;
 }

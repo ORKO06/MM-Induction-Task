@@ -2,7 +2,7 @@
   margin: auto;
 }
 html {
-  background-color: rgb(51, 47, 47);
+  background-color: #1b1717;
 }
 * {
   margin: 0%;
@@ -102,7 +102,8 @@ html {
   width: 590px;
   height: 200px;
   float: left;
-  background-color: brown;
+  background-color: #3f0d12;
+  background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
   border-radius: 0 20px 20px 0;
 }
 
@@ -134,6 +135,7 @@ html {
   text-transform: uppercase;
   font-weight: bolder;
   font-size: x-large;
+  color: #edf2f4;
 }
 
 .article-1-author {
@@ -142,7 +144,7 @@ html {
   margin: auto;
 
   margin-top: 10px;
-  color: aqua;
+  color: #fdf0d5;
 }
 
 .user {
@@ -155,6 +157,7 @@ html {
   text-align: left;
   margin-top: 20px;
   font-weight: bold;
+  color: #edf2f4;
 }
 
 .article-1-metas {
@@ -164,6 +167,8 @@ html {
   color: aqua;
   margin-top: 15px;
   word-spacing: 10px;
+
+  color: #f3f7f0;
 }
 
 .article-1-button {
@@ -171,7 +176,7 @@ html {
   left: 400px;
   top: -20px;
   background-color: transparent;
-  color: white;
+  color: #f9627d;
   box-shadow: none;
   border: none;
   text-decoration: none;
@@ -348,7 +353,5 @@ html {
   .article-1-author {
     width: 80%;
     font-size: small;
-  }
-  .articles-right {
   }
 }

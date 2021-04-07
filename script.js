@@ -5,7 +5,7 @@ const movie = document.querySelector(".movie");
 const crime = document.querySelector(".crime");
 
 const type = ["sports", "crime", "election", "movie"];
-const color = ["green", "red", "pink", "blue"];
+const color = ["#7cffcb", "red", "pink", "blue"];
 
 for (i = 1; i <= 4; i++) {
   document.querySelector(`.article-${i}-type`).textContent = `${type[i - 1]}`;
