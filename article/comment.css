@@ -61,7 +61,7 @@ textarea {
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  background: url(../ad.jpg);
+  background: url(../assets/ad.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin: auto;

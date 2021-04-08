@@ -26,7 +26,7 @@ body {
 .Article-Image {
   width: 60%;
   height: 400px;
-  background: url(../article.jpg);
+  background: url(../assets/article.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: url(../article.jpg);
+  background: url(../assets/article.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   float: left;
