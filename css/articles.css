@@ -92,7 +92,7 @@
   width: 200px;
   height: 200px;
   float: left;
-  background: url(4.jfif);
+  background: url(../assets/4.jfif);
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
@@ -242,7 +242,7 @@
   width: 350px;
   margin-top: 50px;
   height: 700px;
-  background: url(ad.jpg);
+  background: url(../assets/ad.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

@@ -129,11 +129,11 @@
 }
 
 .card-1 {
-  background: url(3.jfif);
+  background: url(../assets/3.jfif);
   background-size: cover;
 }
 .card-2 {
-  background: url(2.jfif);
+  background: url(../assets/2.jfif);
   background-size: cover;
 }
 

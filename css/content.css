@@ -40,7 +40,7 @@
 .card {
   width: 400px;
   height: 350px;
-  background-image: url(2.jfif);
+  background-image: url(../assets/2.jfif);
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;

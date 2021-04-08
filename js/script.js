@@ -7,38 +7,38 @@ const crime = document.querySelector(".crime");
 const type = ["sports", "crime", "election", "movie"];
 const color = ["#7cffcb", "red", "pink", "blue"];
 image = [
-  "url(sports.jfif)",
-  "url(crime.jpg)",
-  "url(election.jfif)",
-  "movie.jpg",
+  "url(./assets/sports.jfif)",
+  "url(./assets/crime.jpg)",
+  "url(./assets/election.jfif)",
+  "url(./assets/movie.jpg)",
 ];
 
 musicImage = [
-  "url(music.jfif)",
-  "url(music2.jfif)",
-  "url(music3.jfif)",
-  "url(music4.jfif)",
+  "url(./assets/music.jfif)",
+  "url(./assets/music2.jfif)",
+  "url(./assets/music3.jfif)",
+  "url(./assets/music4.jfif)",
 ];
 
 politicsImage = [
-  "url(election.jfif)",
-  "url(politics1.jpg)",
-  "url(politics2.jpg)",
-  "url(politics3.png)",
+  "url(./assets/election.jfif)",
+  "url(./assets/politics1.jpg)",
+  "url(./assets/politics2.jpg)",
+  "url(./assets/politics3.png)",
 ];
 
 moviesImage = [
-  "url(movie.jpg)",
-  "url(movies2.jfif)",
-  "url(movies3.jfif)",
-  "url(movies4.jfif)",
+  "url(./assets/movie.jpg)",
+  "url(./assets/movies2.jfif)",
+  "url(./assets/movies3.jfif)",
+  "url(./assets/movies4.jfif)",
 ];
 
 crimeImage = [
-  "url(crime.jpg)",
-  "url(crime1.jfif)",
-  "url(crime2.jfif)",
-  "url(crime3.jfif)",
+  "url(./assets/crime.jpg)",
+  "url(./assets/crime1.jfif)",
+  "url(./assets/crime2.jfif)",
+  "url(./assets/crime3.jfif)",
 ];
 
 for (i = 1; i <= 4; i++) {
