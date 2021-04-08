@@ -42,12 +42,12 @@ crimeImage = [
 ];
 
 featuredImages = [
-  "linear-gradient(#ff005d4f, #ff005d4f),url(./assets/music4.jfif)",
-  "linear-gradient(#ff005d4f, #ff005d4f),url(./assets/crime2.jfif)",
-  "linear-gradient(#ff005d4f, #ff005d4f),url(./assets/election.jfif)",
-  "linear-gradient(#ff005d4f, #ff005d4f),url(./assets/sports.jfif)",
-  "linear-gradient(#ff005d4f, #ff005d4f),url(./assets/movies3.jfif)",
-  "linear-gradient(#ff005d4f, #ff005d4f),url(./assets/music2.jfif)",
+  "linear-gradient(#ff005d70, #ff005d70),url(./assets/music4.jfif)",
+  "linear-gradient(#ff005d70, #ff005d70),url(./assets/crime2.jfif)",
+  "linear-gradient(#ff005d70, #ff005d70),url(./assets/election.jfif)",
+  "linear-gradient(#ff005d70, #ff005d70),url(./assets/sports.jfif)",
+  "linear-gradient(#ff005d70, #ff005d70),url(./assets/movies3.jfif)",
+  "linear-gradient(#ff005d70, #ff005d70),url(./assets/music2.jfif)",
 ];
 
 for (i = 1; i <= 6; i++) {

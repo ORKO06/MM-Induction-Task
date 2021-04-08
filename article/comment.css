@@ -54,7 +54,7 @@ textarea {
 }
 .comment-left {
   width: 25%;
-  background-color: rgb(80, 80, 39);
+  background-color: #8200ff;
 }
 
 .user-image {
@@ -70,7 +70,7 @@ textarea {
 
 .comment-right {
   width: 75%;
-  background-color: rgb(151, 5, 5);
+  background-color: #470c85;
 }
 
 .user,
@@ -78,6 +78,7 @@ textarea {
 .user-comment-time {
   width: 80%;
   margin: auto;
+  color: #06cdff;
 }
 
 .user {

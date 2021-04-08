@@ -40,7 +40,7 @@
 .card {
   width: 400px;
   height: 350px;
-  background: linear-gradient(#ff005d2a, #ff005d2a), url(../assets/2.jfif);
+  background: linear-gradient(#ff005d70, #ff005da2), url(../assets/2.jfif);
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
