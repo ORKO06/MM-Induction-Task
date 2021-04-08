@@ -41,6 +41,21 @@ crimeImage = [
   "url(./assets/crime3.jfif)",
 ];
 
+featuredImages = [
+  "linear-gradient(#ff005d4f, #ff005d4f),url(./assets/music4.jfif)",
+  "linear-gradient(#ff005d4f, #ff005d4f),url(./assets/crime2.jfif)",
+  "linear-gradient(#ff005d4f, #ff005d4f),url(./assets/election.jfif)",
+  "linear-gradient(#ff005d4f, #ff005d4f),url(./assets/sports.jfif)",
+  "linear-gradient(#ff005d4f, #ff005d4f),url(./assets/movies3.jfif)",
+  "linear-gradient(#ff005d4f, #ff005d4f),url(./assets/music2.jfif)",
+];
+
+for (i = 1; i <= 6; i++) {
+  document.querySelector(`.card_${i}`).style.backgroundImage = `${
+    featuredImages[i - 1]
+  }`;
+}
+
 for (i = 1; i <= 4; i++) {
   document.querySelector(`.article-${i}-type`).textContent = `${type[i - 1]}`;
   document.querySelector(`.article-${i}-type`).style.backgroundColor = `${

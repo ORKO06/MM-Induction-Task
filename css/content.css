@@ -40,7 +40,7 @@
 .card {
   width: 400px;
   height: 350px;
-  background-image: url(../assets/2.jfif);
+  background: linear-gradient(#ff005d2a, #ff005d2a), url(../assets/2.jfif);
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -60,6 +60,10 @@
   overflow: hidden;
   position: relative;
   left: 30px;
+}
+
+.meta {
+  word-spacing: 10px;
 }
 
 .blog-title {
