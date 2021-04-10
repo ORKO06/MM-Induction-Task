@@ -114,3 +114,27 @@ nav li a:hover .back {
 .search:focus {
   outline: none;
 }
+
+.search {
+  border: 2px solid black;
+}
+
+@media screen and (max-width: 600px) {
+  .search {
+    width: 100px;
+  }
+
+  nav li a,
+  .fare,
+  .back {
+    padding: 15px 5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  nav li a,
+  .fare,
+  .back {
+    font-size: small;
+  }
+}
